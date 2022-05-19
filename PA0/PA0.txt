@@ -1,0 +1,3 @@
+1. I have completed Ubuntu 20.04 LTS install, but required a use of older (5.11) kernel due to issues with wifi card
+2. I am up on Git (I think)
+3. The policeman was mad when he caught the low-powered robot for the third time that week. He had to charge him with battery.

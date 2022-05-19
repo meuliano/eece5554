@@ -1,0 +1,9 @@
+<launch>
+ <arg name="gps_port"/>
+ <arg name="vn100_port"/>
+
+ <node pkg="gps_imu_drivers" name="vn100" type="vn100_pub_node.py" args="_port:=$(arg vn100_port)"/>
+ <node pkg="gps_imu_drivers" name="gps" type="gps_pub_node.py" args="_port:=$(arg gps_port)"/>
+
+ <node pkg="rosbag" type="record" name="rosbag_record" args="-a -o /home/andrewgoering/Northeastern/EECE5554/eece5554/LAB4/"/>  
+</launch>
